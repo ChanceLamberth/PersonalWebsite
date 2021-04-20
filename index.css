@@ -1,0 +1,150 @@
+
+/* Changes the entier color of the webpage */
+.body{
+    /* background-color: rgb(20,40,40); */
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.nav{
+    width: auto;
+    margin: 0;
+    padding-top: 0;
+    display: flex;
+    justify-content: space-around;
+    min-height: 2vh;
+    background-color: rgb(6, 40, 40);
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(6, 40, 40);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(226, 226, 226);
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+color: darkgray;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Changes the color of the burger */
+.navBurger{
+    color: rgb(226,226,226);
+    /* text-align: right; */
+    /* position: flex; */
+
+}
+
+.navBarDesktop{
+    display: none;
+}
+
+.navBarDesktop a{
+    color: rgb(226,226,226);
+    /* color: black; */
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: 14px;
+    /* width: 30%; */
+    width: auto;
+    /* background-color: aquamarine; */
+}
+
+.logo{
+    display: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.mobileLogo{
+    text-decoration: none;
+    color: rgb(226,226,226);
+    font-size: 16px;
+    cursor: pointer;
+    /* align-items: center; */
+    /* margin-right: 5%; */
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    /* margin-top: auto; */
+}
+
+/* Mobile Device */
+@media screen and (max-height: 450px max-width 600px) {
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+.navBarDesktop{
+    display: none;
+}
+
+.navBurger{
+    color: rgb(226,226,226);
+    text-align: right;
+    display: inline-block;
+    position: flex;
+    /* margin-right: 30%; */
+    right: 25px;
+}
+
+}
+
+/* Desktop Site */
+@media screen and (min-width: 600px){
+    .navBurger{
+        display: none;
+    }
+    .navBarDesktop{
+        position: flex;
+        display: flex;
+        position: relative;
+        text-align: center; 
+        vertical-align: middle;
+        color: rgb(226,226,226);
+        width: 30%;;
+    }
+
+    .navBarDesktop a{
+        margin: auto;
+        max-width: 600px;
+    }
+    .logo{
+        display: inline;
+        text-align: center;
+        color: rgb(226,226,226);
+    }    
+}
+
+/* Text on the webpage */
+.box1{
+    padding-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* max-width: 600px; */
+    /* background-color: bisque; */
+}

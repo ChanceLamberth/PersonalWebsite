@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel = "stylesheet" href="projects.css">
+<script src="project.js"></script>
+<title>Index HTML Test</title>
+</head>
+<body class="body">
+    <nav class="nav">
+    <!-- Mobile View -->
+    <!-- This is for the side nav bar. -->
+        <div class="mobileNav">
+            <div class="navBurger">
+                <a href="index.html" class="mobileLogo">Lamberth</a>
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            </div>
+            
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                
+                <!-- could be a cool idea having my name in the bar instead of on the webpage -->
+                <!-- <a href="#" class="mobileLogo">Logo</a> -->
+                <a href="index.html">Home</a>
+                <a href="projects.html">Projects</a>
+                <a href="resume.html">Resume</a>
+                <!-- <a href="#">Contact</a> -->
+                </div>
+        </div>
+        
+        <span class="logo" onclick="window.location.href= 'index.html'">
+            <h4>Chance Lamberth</h4>
+        </span>
+
+        <!-- Desktop View -->
+        <div class="navBarDesktop">
+            <!-- <ul> -->
+                <a href="index.html">Home</a>
+                <a href="projects.html">Projects</a>
+                <a href="resume.html">Resume</a>
+                <!-- <a href="#">Contact</a> -->
+            <!-- </ul> -->
+        </div>
+</nav>
+
+
+</body>
+</html>
