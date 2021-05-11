@@ -2,7 +2,7 @@
 /* Changes the entier color of the webpage */
 .body{
     /* background-color: rgb(20,40,40); */
-    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
 
@@ -141,10 +141,18 @@ color: darkgray;
 }
 
 /* Text on the webpage */
-.box1{
+.body h1{
+    font-family: Arial, Helvetica, sans-serif;
     padding-top: 10px;
     margin-left: 10%;
     margin-right: 10%;
     /* max-width: 600px; */
     /* background-color: bisque; */
+}
+
+.body p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
