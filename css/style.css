@@ -577,6 +577,14 @@ color: #777;
 #about img {
 	margin: 50px 0;
 }
+
+/* Portfolio */
+#portfolio {
+	padding: 100px 0;
+}
+.mobileHide{
+	display: none;
+}
 }
 
 
