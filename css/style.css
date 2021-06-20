@@ -533,6 +533,14 @@ color: #777;
 #contact .contact-item i.fa {
 	margin-right: 10px;
 }
+
+#contact .contact-item a{
+	color: rgba(255,255,255,1);
+	margin-bottom: 10px;
+	display: block;
+	text-decoration: underline;
+}
+
 #contact .social {
 	border-top: 1px solid rgba(255,255,255,0.15);
 	padding-top: 50px;
