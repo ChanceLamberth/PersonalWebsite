@@ -586,12 +586,12 @@ color: #777;
 		display: none;
 	}
 	/* Mobile fix for coding icons */
-	#features{
+	/* #features{
 		padding: 100px 0;
 		background: #f6f6f6;
-	}
-	.row{
+	} */
+	/* .row{
 		padding: 30px;
-		padding-left: 110px;
-	}
+		padding-left: 90px;
+	} */
 }
