@@ -799,6 +799,7 @@ color: #777;
 	-webkit-transition: height 0.4s;
 	-moz-transition: height 0.4s;
 	transition: height 0.4s;
+	
   }
   .cd-horizontal-timeline .events-content li {
 	position: absolute;
