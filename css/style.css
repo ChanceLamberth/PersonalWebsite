@@ -581,6 +581,10 @@ color: #777;
 	border-bottom: 2px solid #608dfd;
 }
 
+.language-border{
+	margin-left: 120px;
+}
+
 @media (max-width: 768px) {
 	#about img {
 		margin: 50px 0;
@@ -598,8 +602,7 @@ color: #777;
 		padding: 100px 0;
 		background: #f6f6f6;
 	} */
-	/* .row{
-		padding: 30px;
-		padding-left: 90px;
-	} */
+	.language-border{
+		margin-left: 50px;
+	}
 }

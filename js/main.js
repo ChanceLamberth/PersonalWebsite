@@ -17,7 +17,6 @@ function main() {
         }
       });
 
-
     $('body').scrollspy({ 
         target: '.navbar-default',
         offset: 80
@@ -31,7 +30,6 @@ function main() {
       $(".navbar-collapse").collapse('hide');
     }
   });
-	
 	
     // Nivo Lightbox 
     $('.portfolio-item a').nivoLightbox({
