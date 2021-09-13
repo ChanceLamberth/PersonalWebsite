@@ -565,11 +565,40 @@ color: #777;
 	border-radius: 50%;
 	transition: all 0.3s;
 }
-#contact .social i.fa:hover {
-	color: #608dfd;
+
+.githubStyle i.fa:hover {
+	color: black;
+	background: #fff;
+
+}
+
+.social .linkedinStyle i.fa:hover {
+	color: blue;
+	background-color: black;
+}
+
+.stravaStyle i.fab:hover {
+	color: orange;
+	background-color: #fff;
+}
+
+/* LinkedIn icon */
+#contact .social i.fa-linkedin:hover {
+	color: #0072b1;
 	background: #fff;
 }
-/* Footer Section*/
+
+#contact .social i.fa-github:hover {
+	color: #171515;
+	background: #fff;
+}
+
+#contact .social i.fab:hover {
+	color: #fc4c02;
+	background: #fff;
+}
+
+/* Footer Section */
 #footer {
 	background: #f6f6f6;
 	padding: 30px 0;
@@ -590,7 +619,7 @@ color: #777;
 }
 
 /* individual icon edit */
-.fa-strava{
+#contact .social .fa-strava {
 	font-size: 22px;
 	width: 48px;
 	height: 48px;
@@ -599,6 +628,11 @@ color: #777;
 	color: #fff;
 	border-radius: 50%;
 	transition: all 0.3s;
+}
+
+.fa-strava a:hover {
+	color: black;
+	background: #fff;
 }
 
 @media (max-width: 768px) {
